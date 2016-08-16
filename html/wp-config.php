@@ -17,8 +17,8 @@
  *
  * @package WordPress
  */
-define('WP_HOME', 'http://localhost:8082');
-define('WP_SITEURL', 'http://localhost:8082');
+define('FS_METHOD', 'direct');
+//define('WP_SITEURL', 'http://localhost:8082');
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 define('DB_NAME', 'wordpressdb');
@@ -27,7 +27,7 @@ define('DB_NAME', 'wordpressdb');
 define('DB_USER', 'dukhyun');
 
 /** MySQL database password */
-define('DB_PASSWORD', '!turn4013');
+define('DB_PASSWORD', 'w26ABv4gH7Y7x3*nD#');
 
 /** MySQL hostname */
 define('DB_HOST', 'wordpress.cvs0xwx2zhxj.ap-northeast-2.rds.amazonaws.com');
