@@ -8,5 +8,8 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /index.php [L]
 </IfModule>
-
+<IfModule mod_url.c>
+CheckURL On
+ServerEncoding UTF-8
+</IfModule>
 # END WordPress
